@@ -1,0 +1,40 @@
+-------------------------------------------
+FAST corner detection in Java. 
+No external libraries are required to run.
+-------------------------------------------
+
+Original code by Ed Rosten. Ported by Alexandros Michael.
+
+For more information on the FAST detector, visit the FAST home page at
+http://mi.eng.cam.ac.uk/~er258/work/fast.html
+
+If you use this in published work, please cite:
+   Faster and better: A machine learning approach to corner detection, E. Rosten, R. Porter and T. Drummond, PAMI 2010
+   Machine learning for high-speed corner detection, E. Rosten and T. Drummond, ECCV 2006
+The Bibtex entries are:
+
+@inproceedings{rosten_2006_machine,
+	title       =    "Machine learning for high-speed corner detection",
+	author      =    "Edward Rosten and Tom Drummond",
+	year        =    "2006",
+	month       =    "May",
+	pages       =    "430--443",
+	volume      =    "1",
+	doi         =    "10.1007/11744023_34",
+	booktitle   =    "European Conference on Computer Vision",
+	notes       =    "Poster presentation",
+	url         =    "http://mi.eng.cam.ac.uk/~er258/work/rosten_2006_machine.pdf",
+}
+
+@article{rosten_2008_faster,
+	title       =    "FASTER and better: A machine learning approach to corner detection",
+	author      =    "Edward Rosten and Reid Porter and Tom Drummond",
+	year        =    "2010",
+	journal     =    "IEEE Trans. Pattern Analysis and Machine Intelligence",
+	pages       =    "105--119",
+	volume      =    "32",
+	doi         =    "10.1109/TPAMI.2008.275",
+	eprint      =    "arXiv:0810.2434 [cs.CV]",
+	url         =    "http://lanl.arXiv.org/pdf/0810.2434",
+}
+
