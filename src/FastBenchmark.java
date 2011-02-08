@@ -46,10 +46,10 @@ public class FastBenchmark {
 	{	
 		// Put the path to your own images here. Use the SEPARATOR constant to ensure
 		// cross-platform directories.
-		IMG_PATH = SEPARATOR + "Users" + SEPARATOR + "alexis" + SEPARATOR + "Desktop" + SEPARATOR;
+		IMG_PATH = "";
 		// Image name. The reason for separating image name and path is to have easy access to
 		// the directory to create the grayscale "cornered" images.
-		IMG_NAME = "30pollock_lg.jpg";
+		IMG_NAME = "";
 		
 		// Load image and turn it to gray.
 		img = ImageIO.read(new File(IMG_PATH + IMG_NAME));
